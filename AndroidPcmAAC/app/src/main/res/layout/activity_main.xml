@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.cong.pcmaac.MainActivity">
+
+        <TextView
+            android:id="@+id/host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户端"/>
+
+        <TextView
+            android:id="@+id/host_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ip"/>
+
+        <TextView
+            android:id="@+id/receive_data_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接收数据:0"/>
+
+        <Button
+            android:id="@+id/send_frame_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送数据"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/record_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="录音开始"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/clean_buffer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清空缓存"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/play_cache_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放缓存语音"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/play_local_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放本地语音"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/read_aac_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取aac文件"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/start_netty_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始netty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/hello_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送hello"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/server_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设定为服务器"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/client_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设定为客户端【默认】"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/android_host_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设定为安卓IP"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/ios_host_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设定为苹果IP"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
